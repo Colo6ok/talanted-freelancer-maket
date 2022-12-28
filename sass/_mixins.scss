@@ -1,0 +1,37 @@
+@mixin mini-card {
+  width: 100%;
+  max-width: 350px;
+  min-height: 254px;
+  padding: 40px;
+  background: #ffffff;
+  box-shadow: -1px 1px 20px rgba(128, 128, 128, 0.1);
+  border-radius: 20px;
+}
+
+@mixin bigger-cardone {
+  width: 100%;
+  min-width: 380px;
+  min-height: 465px;
+  padding: 47px;
+  background: #ffffff;
+  box-shadow: -1px 1px 20px rgba(128, 128, 128, 0.1);
+  border-radius: 20px;
+}
+
+@mixin three-btn {
+  position: absolute;
+  right: 40px;
+  top: 38px;
+}
+
+@mixin cost-cards {
+  width: 100%;
+  max-width: 350px;
+  max-height: 537px;
+  padding-top: 63px;
+  padding-bottom: 62px;
+  background: #ffffff;
+  box-shadow: -1px 1px 20px rgba(128, 128, 128, 0.1);
+  border-radius: 20px;
+  text-align: center;
+}

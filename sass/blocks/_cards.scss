@@ -1,0 +1,109 @@
+
+.cards__inner {
+  max-width: 543px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.cards__title {
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 0.05em;
+  color: #353434;
+  padding-bottom: 20px;
+}
+
+.cards__desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #959595;
+}
+
+.cards__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.subcards {
+    margin-right: 30px;
+    transition: all 0.3s ease;
+  @include cost-cards;
+}
+
+.subcards:hover {
+    transform: translateY(-30px);
+    background: #F9FAFF;
+box-shadow: 0px 12px 30px rgba(71, 71, 71, 0.15);
+border-radius: 20px;
+}
+
+.subcards__title {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: #4238af;
+  margin-bottom: 31px;
+}
+
+.subcards__desc {
+  font-weight: 400;
+  font-size: 45px;
+  letter-spacing: 0.07em;
+  color: #353434;
+  margin-bottom: 24px;
+}
+
+.subcards__controller {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #8a86b9;
+  margin-bottom: 71px;
+}
+
+.subcards__list {
+  margin-bottom: 47px;
+}
+
+.subcards__item {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #a8a8a8;
+  padding-bottom: 19px;
+
+  &::before {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #FF5C00;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 11px;
+    content: "✔";
+  }
+}
+
+.subcards__link {
+  display: inline-block;
+  padding: 13px 23px;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #544CAC;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  background: #BDBBD9;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  
+}
+
+.subcards:hover .subcards__link {
+  color: white;
+  background-color: #544CAC;
+}

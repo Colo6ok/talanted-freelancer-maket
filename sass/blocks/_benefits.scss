@@ -1,0 +1,143 @@
+.benefits {
+  margin-bottom: 244px;
+  overflow: hidden;
+}
+
+.benefits__wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 76px;
+}
+
+.benefits__box {
+  // width: 100%;
+  max-width: 543px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.benefits__title {
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 0.05em;
+  color: #353434;
+}
+
+.benefits__title__desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #a8a8a8;
+  letter-spacing: 0.02em;
+}
+
+.benefits__sub__box {
+  position: relative;
+  text-align: center;
+  margin-right: 65px;
+  transition: all 0.3s ease;
+  @include bigger-cardone;
+}
+
+.benefits__sub__box:hover {
+  transform: translateY(-30px);
+  background: #f9faff;
+  box-shadow: 0px 12px 30px rgba(71, 71, 71, 0.15);
+  border-radius: 20px;
+}
+
+.benefits__sub__box:hover .benefits__link {
+  background-color: #544cac;
+}
+
+.pic__box {
+  display: flex;
+  align-items: center;
+  margin-right: 51px;
+}
+
+.benefits__pic {
+  padding-bottom: 45px;
+}
+
+.benefits__threebtn {
+  @include three-btn;
+}
+
+.benefits__sub__title {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: #323232;
+  padding-bottom: 16px;
+}
+
+.benefits__desc {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #4238af;
+  padding-bottom: 44px;
+}
+
+.benefits__sub__desc {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #323232;
+  padding-bottom: 14px;
+}
+
+.desc__controller {
+  color: grey;
+}
+
+.desc__controller__two {
+  color: grey;
+  padding-left: 15px;
+}
+
+.b__pic {
+  margin-right: 29px;
+}
+
+.b__box {
+  margin-top: 22px;
+}
+
+.benefits__link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 15px 35px;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background-color: #544cac69;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 47px;
+}
+
+.link__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  display: inline-block;
+  background: #544cac;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 47px;
+  padding: 15px 35px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
